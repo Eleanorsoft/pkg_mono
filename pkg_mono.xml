@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.0.0" method="upgrade">
+<name>mono checkout</name>
+<author>monobank</author>
+<creationDate>Auguest 2024</creationDate>
+<packagename>mono</packagename>
+<version>1.0.0</version>
+<authorUrl>https://monobank.ua/</authorUrl>
+<packager>monobank</packager>
+<authorUrl>https://monobank.ua/</authorUrl>
+<files folder="packages">
+    <file type="component" id="monocheckout">com_monocheckout.zip</file>
+    <file type="plugin" id="monobutton" group="jshopping">plg_jshopping_monobutton.zip</file>
+    <file type="plugin" id="monocheckout" group="jshoppingcheckout">plg_jshoppingcheckout_monocheckout.zip</file>
+    <file type="plugin" id="monoorder" group="jshoppingorder">plg_jshoppingorder_monoorder.zip</file>
+</files>
+</extension>
